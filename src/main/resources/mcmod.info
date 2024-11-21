@@ -1,0 +1,23 @@
+[
+  {
+    "modid": "fullbright",
+    "name": "Fullbright",
+    "description": "Well, it's fullbright what more can be expected?.",
+    "version": "1.0",
+    "credits": "",
+    "logoFile": "",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorsList": [
+      "Unblonded"
+    ],
+    "authors": [
+      "Unblonded"
+    ],
+    "parent": "",
+    "screenshots": [],
+    "dependencies": [
+    ]
+  }
+]
