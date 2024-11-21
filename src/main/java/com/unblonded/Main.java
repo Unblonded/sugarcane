@@ -57,7 +57,7 @@ public class Main {
             String block = player.getBlockUnder();
             if (!(block.equals(oldBlock))) {
 
-                if (block.equals("Sand") || block.equals("Cobblestone") || block.equals("Grass Block") || block.equals("Dirt") || block.equals("tile.air.name")) {
+                if (block.equals("Sand") || block.equals("Stone Bricks") || block.equals("Gravel") || block.equals("Cobblestone") || block.equals("Grass Block") || block.equals("Dirt") || block.equals("tile.air.name")) {
 
                     if (block.equals("Cobblestone")) {
                         webhook.sendMsg("Cobblestone -> Moving Backward!");
@@ -69,6 +69,16 @@ public class Main {
                         webhook.sendMsg("Sand -> Moving Left!");
                         player.freeMovementKeys();
                         player.moveLeft();
+                        player.attack();
+                    } else if (block.equals("Stone Bricks")) {
+                        webhook.sendMsg("Stone Bricks -> Moving Right!");
+                        player.freeMovementKeys();
+                        player.moveRight();
+                        player.attack();
+                    } else if (block.equals("Gravel")) {
+                        webhook.sendMsg("Gravel -> Moving Forward!");
+                        player.freeMovementKeys();
+                        player.moveForward();
                         player.attack();
                     }
 
