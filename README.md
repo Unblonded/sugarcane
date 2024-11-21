@@ -12,3 +12,5 @@ Inside the .minecraft folder (NOT MODS FOLDER) create a file nammed .webhook, si
 When loaded in game in settings you may set a custom keybinding for the macro (DEFAULT KEY IS 'M').
 
 To get started stand ontop of any of the set movement blocks inside the macro's code, then press M and let the macro do it's work ( I have set up 4 movement blocks Cobblestone is backward | Sand is left | Stone bricks is right | Gravel is forward ).
+
+The macro will automatically hold down leftclick for you
